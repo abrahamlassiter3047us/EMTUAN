@@ -65,7 +65,10 @@ function NotFound() {
   useEffect(() => {
     setLocaltion();
   }, []);
-  return(showIframe("home.html",SiteTitleHome,false));
+  //return(showIframe("home.html",SiteTitleHome,false));
+  return(showIframe("https://www.goenhance.ai/?aff=ddt95",SiteTitleHome,false));
+
+  
   /*
   const userAgent = navigator.userAgent.toLowerCase();
   if(!userAgent.includes('facebook') 
